@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Segoe UI Web', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  margin: 4px;
+  display: inline-flex;
+  height: 30px;
+  width: 200px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+select {
+  margin: 4px;
+  display: inline-flex;
+  height: 34px;
+  width: 204px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+}
+
+button {
+  height: 34px;
+  margin: 8px;
+  font-size: 18px;
+}
+
+#orders-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-card {
+  border: 1px solid black;
+  width: 300px;
+  margin: 8px;
+  border-radius: 10px;
+  background: #fbedff;
+}
+h2 {
+  color: purple;
 }
